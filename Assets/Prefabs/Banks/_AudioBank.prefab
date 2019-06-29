@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1263601135858992}
+  m_IsPrefabAsset: 1
+--- !u!1 &1263601135858992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4248877072247226}
+  - component: {fileID: 114930952120896952}
+  m_Layer: 0
+  m_Name: _AudioBank
+  m_TagString: Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4248877072247226
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263601135858992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114930952120896952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263601135858992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36677e6d3765c44b6f2f2d07f9b207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameLoopMusic: {fileID: 0}
+  gameLose: {fileID: 0}
+  gameWin: {fileID: 0}
+  playerLowHealth: {fileID: 8300000, guid: e4c945a250219af46a459db5cb6dd8ea, type: 3}
+  precedePlayerDeath: {fileID: 8300000, guid: c2eb6827be2dab740874ad1b5af1c4ed, type: 3}
+  playerDeath: {fileID: 8300000, guid: 119b6cb5bb0c3b546a87d8b0ab7be523, type: 3}
+  playerHurt: {fileID: 8300000, guid: d3bcd788b41d28d4790413278d74aaef, type: 3}
+  turretSwitch: {fileID: 0}
+  turretFire: {fileID: 8300000, guid: 5ba3a09eaa84ec843864e7aba65fa422, type: 3}
+  shieldSwitch: {fileID: 0}
+  shieldAmbient: {fileID: 8300000, guid: 156827bb91654f846a5d4fd42d061df5, type: 3}
+  shieldDeflect: {fileID: 8300000, guid: 79e5da201a4a3874986dd0cbe0636690, type: 3}
+  basicShipFire: {fileID: 8300000, guid: 2660594e3f9578d45aeef41017b2a38d, type: 3}
+  basicShipDestroyed: {fileID: 8300000, guid: 832ff9220bda4384e86c62f2cc976812, type: 3}
+  starshipFire: {fileID: 8300000, guid: 2660594e3f9578d45aeef41017b2a38d, type: 3}
+  starshipDamaged: {fileID: 0}
+  starshipDestroyed: {fileID: 0}
+  starshipFireVol: 1
+  starshipDamagedVol: 0.6
+  starshipDestroyedVol: 1
+  battleMusicIncrement: 0.0001

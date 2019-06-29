@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1047329695751670}
+  m_IsPrefabAsset: 1
+--- !u!1 &1047329695751670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4686102266879212}
+  - component: {fileID: 114534868879138774}
+  m_Layer: 0
+  m_Name: _TextBank
+  m_TagString: Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4686102266879212
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047329695751670}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114534868879138774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047329695751670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c663c7595c29b684fb227005fe39584f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScore: 0
+  kamikazeFontSize: 25
+  starshipFontSize: 45
+  battleshipFontSize: 0
+  pointTextFadeTime: 1.2
+  beginText: {fileID: 114818286592630900, guid: ff42d8dd8ff49864a96bc2a97ba998d0,
+    type: 2}
+  pauseText: {fileID: 114651023925506398, guid: 2b762102087d19f45b6001f0cca3d8d1,
+    type: 2}
+  currentScoreText: {fileID: 114495851696127010, guid: a6fd10e72bba1f442820e12b47dc69ca,
+    type: 2}
+  finalScoreText: {fileID: 114734972593176072, guid: 2eea6e83436ba2c4e8feec19bf645e4f,
+    type: 2}
+  healthText: {fileID: 114696990677537396, guid: b62bdfbd094045d4794aa63b8597df21,
+    type: 2}
+  restartText: {fileID: 114121145932677516, guid: 80faf366c9459c643aeba8fa2beb953d,
+    type: 2}
+  quitText: {fileID: 0}
+  pointTextPrefab: {fileID: 1037093198616010, guid: d87275ae5497c6c47aeb13a6962bc1af,
+    type: 2}
